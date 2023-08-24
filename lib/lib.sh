@@ -148,7 +148,6 @@ get_latest_release() {
 
 get_latest_versions() {
   output "Retrieving release information..."
-  PTERODACTYL_PANEL_VERSION=$(get_latest_release "pterodactyl/panel")
   PTERODACTYL_WINGS_VERSION=$(get_latest_release "pterodactyl/wings")
 }
 
